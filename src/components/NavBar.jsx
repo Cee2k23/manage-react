@@ -12,7 +12,7 @@ export default function NavBar() {
         <li className="hover:text-orange-500 cursor-pointer">Careers</li>
         <li className="hover:text-orange-500 cursor-pointer">Community</li>
       </ul>
-      <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full shadow-md transition-colors" >Get Started</Button>
+      <Button className="bg-orange-500 hover:bg-orange-600 font-semibold text-white px-6 py-2 rounded-full shadow-md transition-colors" >Get Started</Button>
     </nav>
   )
 }

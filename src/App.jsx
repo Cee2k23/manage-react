@@ -5,6 +5,10 @@ import heroImg from './assets/design/hero.png'
 import './App.css'
 import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
+import HeroSection2 from './components/HeroSection2'
+import HeroSection3 from './components/HeroSection3'
+import HeroSection4 from './components/HeroSection4'
+import Footer from './components/Footer'
 import bg from './assets/images/bg-tablet-pattern.svg'
 
 function App() {
@@ -17,6 +21,10 @@ function App() {
         >
         <NavBar />
         <HeroSection />
+        <HeroSection2 />
+        <HeroSection3 />
+        <HeroSection4 />
+        <Footer />
       </section>
     </main>
   )
